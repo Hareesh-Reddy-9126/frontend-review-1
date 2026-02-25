@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between py-4">
         <div className="flex items-center">
           <img
-            src="/src/assets/logo.svg"
+            src={assets.logo}
             alt="Logo"
             className="w-[120px] h-[38px] object-contain p-0 m-0"
             style={{ display: "block", padding: 0, margin: 0 }}
