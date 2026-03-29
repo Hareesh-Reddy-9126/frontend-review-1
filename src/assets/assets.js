@@ -4,7 +4,9 @@ import group_profiles from './group_profiles.png'
 import profile_pic from './profile_pic.png'
 import contact_image from './contact_image.png'
 import about_image from './about_image.png'
-import logo from './logo.svg'
+// `logo.svg` has no `viewBox`, which can render inconsistently with `object-contain`
+// (e.g., on some production hosts). `logo1.svg` includes a proper `viewBox`.
+import logo from './logo1.svg'
 import dropdown_icon from './dropdown_icon.svg'
 import menu_icon from './menu_icon.svg'
 import cross_icon from './cross_icon.png'
